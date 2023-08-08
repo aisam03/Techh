@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -15px;
+  height: 100px;
+  padding-bottom: 15px;
+  .logo img{
+    height: 120px;
+    margin-bottom: 0;
+  }
+
+  .logo-heading{
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .powered{
+    color: #294a59 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+
+  .name{
+    color: #0482ce;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+
+  .nav-right{
+    .button1{
+      width: 8em;
+      height: 2.5em;
+      background-color: #0482ce;
+      color: white;
+      border-radius: 2em;
+      border: none;
+      margin-right: 1em;
+      font-family: 'Lato', sans-serif;
+      // font-weight: 500;
+    }
+
+    .button2{
+      width: 6.5em;
+      height: 2.5em;
+      background-color: #0482ce;
+      color: white;
+      border-radius: 2em;
+      border: none;
+      font-family: 'Lato', sans-serif;
+      // font-weight: 500;
+    }
+  }
+}
+
+.hero{
+  font-family: 'Lato', sans-serif;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55),
+  rgba(0, 0, 0, 0.55)),   url(./Media/background.jpg);
+  background-position: center;
+  .hero-heading{
+    padding-top: 3em;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    span{
+      color: #0482ce;
+    }
+  }
+
+  .hero-description{
+    width: 600px;
+    margin-top: 2em;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    word-spacing: 1px;
+  }
+}
+
+.sec1{
+  margin-top: 100px;
+  .offer-heading{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #294a59;
+  }
+
+  .bulk{
+    margin-top: 100px;
+  }
+
+  .laptops img{
+    height: 400px;
+  }
+
+  .b2b{
+    h4{
+      color: #294a59;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+    }
+    p{
+      font-size: 18px;
+      color: #294a59;
+    }
+  }
+}
