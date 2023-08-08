@@ -99,9 +99,11 @@
 
   .laptops img{
     height: 400px;
+    border-radius: 10px;
   }
 
   .b2b{
+    padding-top: 50px;
     h4{
       color: #294a59;
       font-weight: 600;
@@ -111,5 +113,79 @@
       font-size: 18px;
       color: #294a59;
     }
+}
+
+.entrepreneur{
+  margin-top: 35px;
+h4{
+  color: #294a59;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  font-size: 18px;
+  color: #294a59;
+}
+}
+}
+
+.sec2{
+  margin-top: 100px;
+  .offer-heading{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #294a59;
   }
+
+  .maintenance{
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .services img{
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 50px;
+  }
+
+  .cleaning{
+    padding-top: 50px;
+    h4{
+      color: #294a59;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+    }
+    h5{
+      margin-top: 20px;
+      color: #294a59;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+    }
+    p{
+      font-size: 18px;
+      color: #294a59;
+    }
+}
+
+.boosting{
+  margin-top: 35px;
+h5{
+  color: #294a59;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  font-size: 18px;
+  color: #294a59;
+}
+}
+}
+
+.footer{
+  height: 100px;
+  background-color: #294a59;
+  color: white;
 }
