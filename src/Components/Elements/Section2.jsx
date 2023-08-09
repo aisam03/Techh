@@ -5,7 +5,7 @@ function Section2() {
     <div className="sec2">
       <div className="container">
         <div className="row maintenance">
-          <div className="col-6">
+          <div className="col-md-6 col-12">
             <div className="cleaning">
               <h4>Comprehensive Maintenance Solutions:</h4>
               <h5>Laptop Cleaning Service:</h5>
@@ -24,9 +24,9 @@ function Section2() {
               </p>
             </div>
           </div>
-          <div className="services col-6">
+          <div className="services col-md-6 col-12">
             <div>
-              <img src="Assets/services.jpg" alt="" />
+              <img src="Assets/services.jpg" alt="" className="img-fluid"/>
             </div>
           </div>
         </div>

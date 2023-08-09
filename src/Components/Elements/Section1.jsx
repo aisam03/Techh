@@ -2,16 +2,16 @@ import React from "react";
 
 function Section1() {
   return (
-    <div className="sec1">
+    <div className="sec1" id="offers">
       <div className="container">
         <div className="offer-heading">What We Offer</div>
         <div className="row bulk">
-          <div className="laptops col-6">
+          <div className="laptops col-md-6 col-12">
             <div>
-              <img src="Assets/laptops.jpeg" alt="" />
+              <img src="Assets/laptops.jpeg" alt="" className="img-fluid" />
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-md-6 col-12">
             <div className="b2b">
               <h4>B2B Excellence in Quantity:</h4>
               <p>
