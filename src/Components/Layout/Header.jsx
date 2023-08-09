@@ -14,9 +14,6 @@ function Header() {
                 <a href="#offers">What we Offers</a>
               </li>
               <li>
-                <a href="/">About US</a>
-              </li>
-              <li>
                 <a href="#foot">Contact US</a>
               </li>
             </ul>
