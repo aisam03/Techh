@@ -4,11 +4,6 @@ function Hero() {
   return (
     <div className="hero">
       <div className="container">
-        {/* <div className="row">
-                <div className="col-6 col-12">
-                    <img src="" alt="" />
-                </div>
-            </div> */}
         <div>
           <div className="hero-heading">
             Empowering IT Companies, <br />
