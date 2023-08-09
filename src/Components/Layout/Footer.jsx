@@ -10,8 +10,8 @@ function Footer() {
             <div className="col-6 footer-right">
                 <span><img src="Assets/logo2.jpeg" alt="" /></span>
                 <span className="social-icons">
-                    <a href="https://instagram.com/alitechltd?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank" className="instagram"><BsInstagram/></a>
-                    <a href="https://www.facebook.com/profile.php?id=100078671025436&mibextid=ZbWKwL" target="_blank" className="facebook"><BsFacebook/></a>
+                    <a href="https://instagram.com/alitechltd?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" className="instagram"><BsInstagram/></a>
+                    <a href="https://www.facebook.com/profile.php?id=100078671025436&mibextid=ZbWKwL" className="facebook"><BsFacebook/></a>
                 </span>
             </div>
             <div className="col-6 footer-left">
